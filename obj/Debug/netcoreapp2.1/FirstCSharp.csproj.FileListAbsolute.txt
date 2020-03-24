@@ -1,0 +1,11 @@
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.deps.json
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.runtimeconfig.json
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.runtimeconfig.dev.json
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.dll
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.pdb
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.csprojAssemblyReference.cache
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.AssemblyInfo.cs
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.dll
+C:\Users\Mohammed khattabi\desktop\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.pdb
