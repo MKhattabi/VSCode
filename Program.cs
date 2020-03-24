@@ -7,7 +7,7 @@ namespace FirstCSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-                        Console.WriteLine("Welcome MF Pitch");
+                        Console.WriteLine("Welcome");
         }
     }
 }
