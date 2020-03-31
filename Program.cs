@@ -52,6 +52,45 @@ namespace FirstCSharp
                 Console.WriteLine("Let's party!");
             }
 
+            // for Loops
+            int start = 0;
+            int end = 5;
+            // loop from start to end including end
+            for (int i = start; i <= end; i++)
+            {
+                Console.WriteLine(i);
+            }
+            // loop from start to end excluding end
+            for (int i = start; i < end; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("    ");
+
+            // while loops
+            int b = 1;
+            while (b < 6)
+            {
+                Console.WriteLine(b);
+                b = b + 1;
+            }
+
+            Console.WriteLine("    ");
+
+            // random values
+
+            Random rand = new Random();
+            for (int val = 0; val < 10; val++)
+            {
+                //Prints the next random value between 2 and 8
+                Console.WriteLine(rand.Next(2, 8));
+            }
+
+
+
+
+
         }
     }
 }
