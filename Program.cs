@@ -87,7 +87,41 @@ namespace FirstCSharp
                 Console.WriteLine(rand.Next(2, 8));
             }
 
-
+            	// print from 1 to 255
+        for (int FirstQ = 1; FirstQ < 256; FirstQ++) 
+        {
+            Console.WriteLine(FirstQ);
+        }
+        
+        Console.WriteLine(" ");
+        
+        // print number from 1 to 100 that are divisible by 3 or 5, but not both
+        for (int SecondQ = 1; SecondQ < 101; SecondQ++) 
+        {
+            if (SecondQ % 3 == 0 || SecondQ % 5 == 0) 
+            {
+                Console.WriteLine(SecondQ);
+            }
+        }
+        
+                                Console.WriteLine("");
+        
+        // Practice 3 
+           for (int ThirdQ = 1; ThirdQ < 101; ThirdQ++) 
+        {
+            if (ThirdQ % 3 == 0 && ThirdQ % 5 == 0) 
+            {
+                Console.WriteLine(ThirdQ + " FizzBuzz");
+            }
+            else if (ThirdQ % 3 == 0)
+            {
+                Console.WriteLine(ThirdQ + " Fizz");
+            }
+            else if (ThirdQ % 5 == 0)
+            {
+                Console.WriteLine(ThirdQ + " Buzz");
+            }
+        }
 
 
 
