@@ -99,7 +99,7 @@ namespace FirstCSharp {
             Console.WriteLine($"The first number of the arr is {arr1[0]}");
             arr1[0] = 8;
             Console.WriteLine($"The first number of the arr is now {arr1[0]}");
-            // The array has now changed!
+            // The array has now changed!    
 
         }
     }
