@@ -26,14 +26,12 @@ namespace FirstCSharp {
             if (numRings >= 5 && name == "Kobe") {
                 Console.WriteLine ($"Welcome to the party {name}, congratulations on your {numRings} championships!");
             }
-
             //-----------------------------------------------------------
             int numRing = 5;
             int numOfAllStarAppearances = 17;
             if (numRing >= 5 || numOfAllStarAppearances > 3) {
                 Console.WriteLine ("Welcome, you are truly a legend");
             }
-
             //--------------------------------------------------------------
             bool crazy = true;
             if (!crazy) {
@@ -51,40 +49,32 @@ namespace FirstCSharp {
             for (int i = start; i < end; i++) {
                 Console.WriteLine (i);
             }
-
             Console.WriteLine ("    ");
-
             // while loops
             int b = 1;
             while (b < 6) {
                 Console.WriteLine (b);
                 b = b + 1;
             }
-
             Console.WriteLine ("    ");
 
             // random values
-
             Random rand = new Random ();
             for (int val = 0; val < 10; val++) {
                 //Prints the next random value between 2 and 8
                 Console.WriteLine (rand.Next (2, 8));
             }
-
             // print from 1 to 255
             for (int FirstQ = 1; FirstQ < 256; FirstQ++) {
                 Console.WriteLine (FirstQ);
             }
-
             Console.WriteLine (" ");
-
             // print number from 1 to 100 that are divisible by 3 or 5, but not both
             for (int SecondQ = 1; SecondQ < 101; SecondQ++) {
                 if (SecondQ % 3 == 0 || SecondQ % 5 == 0) {
                     Console.WriteLine (SecondQ);
                 }
             }
-
             Console.WriteLine ("");
 
             // Practice 3 
@@ -97,8 +87,19 @@ namespace FirstCSharp {
                     Console.WriteLine (ThirdQ + " Buzz");
                 }
             }
+            Console.WriteLine (" ");
 
-            console.WriteLine(" ");
+            // Arrays
+            int[] numArray1;
+            numArray1 = new int[] { 5, 4, 8 };
+            Console.WriteLine (numArray1[1]);
+
+            // Accessing Arrays
+            int[] arr1 = { 1, 2, 3, 4 };
+            Console.WriteLine($"The first number of the arr is {arr1[0]}");
+            arr1[0] = 8;
+            Console.WriteLine($"The first number of the arr is now {arr1[0]}");
+            // The array has now changed!
 
         }
     }
