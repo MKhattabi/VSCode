@@ -64,29 +64,29 @@ namespace FirstCSharp {
                 //Prints the next random value between 2 and 8
                 Console.WriteLine (rand.Next (2, 8));
             }
-            // print from 1 to 255
-            for (int FirstQ = 1; FirstQ < 256; FirstQ++) {
-                Console.WriteLine (FirstQ);
-            }
-            Console.WriteLine (" ");
-            // print number from 1 to 100 that are divisible by 3 or 5, but not both
-            for (int SecondQ = 1; SecondQ < 101; SecondQ++) {
-                if (SecondQ % 3 == 0 || SecondQ % 5 == 0) {
-                    Console.WriteLine (SecondQ);
-                }
-            }
-            Console.WriteLine ("");
+            // // print from 1 to 255
+            // for (int FirstQ = 1; FirstQ < 256; FirstQ++) {
+            //     Console.WriteLine (FirstQ);
+            // }
+            // Console.WriteLine (" ");
+            // // print number from 1 to 100 that are divisible by 3 or 5, but not both
+            // for (int SecondQ = 1; SecondQ < 101; SecondQ++) {
+            //     if (SecondQ % 3 == 0 || SecondQ % 5 == 0) {
+            //         Console.WriteLine (SecondQ);
+            //     }
+            // }
+            // Console.WriteLine ("");
 
-            // Practice 3 
-            for (int ThirdQ = 1; ThirdQ < 101; ThirdQ++) {
-                if (ThirdQ % 3 == 0 && ThirdQ % 5 == 0) {
-                    Console.WriteLine (ThirdQ + " FizzBuzz");
-                } else if (ThirdQ % 3 == 0) {
-                    Console.WriteLine (ThirdQ + " Fizz");
-                } else if (ThirdQ % 5 == 0) {
-                    Console.WriteLine (ThirdQ + " Buzz");
-                }
-            }
+            // // Practice 3 
+            // for (int ThirdQ = 1; ThirdQ < 101; ThirdQ++) {
+            //     if (ThirdQ % 3 == 0 && ThirdQ % 5 == 0) {
+            //         Console.WriteLine (ThirdQ + " FizzBuzz");
+            //     } else if (ThirdQ % 3 == 0) {
+            //         Console.WriteLine (ThirdQ + " Fizz");
+            //     } else if (ThirdQ % 5 == 0) {
+            //         Console.WriteLine (ThirdQ + " Buzz");
+            //     }
+            // }
             Console.WriteLine (" ");
 
             // Arrays
@@ -96,10 +96,28 @@ namespace FirstCSharp {
 
             // Accessing Arrays
             int[] arr1 = { 1, 2, 3, 4 };
-            Console.WriteLine($"The first number of the arr is {arr1[0]}");
+            Console.WriteLine ($"The first number of the arr is {arr1[0]}");
             arr1[0] = 8;
-            Console.WriteLine($"The first number of the arr is now {arr1[0]}");
-            // The array has now changed!    
+            Console.WriteLine ($"The first number of the arr is now {arr1[0]}");
+            // The array has now changed!   
+            Console.WriteLine (" ");
+
+            // // Iterating through an array
+            // string[] myCars = new string[] { "Mazda Miata", "Ford Model T", "Dodge Challenger", "Nissan 300zx" };
+            // // The 'Length' property tells us how many values are in the Array (4 in our example here). 
+            // // We can use this to determine where the loop ends: Length-1 is the index of the last value. 
+            // for (int idx = 0; idx < myCars.Length; idx++) {
+            //     Console.WriteLine ($"I own a {myCars[idx]}");
+            // }
+            // Console.WriteLine (" ");
+
+            string[] myCars1 = new string[] { "Mazda Miata", "Ford Model T", "Dodge Challenger", "Nissan 300zx" };
+            foreach (string car in myCars1) {
+                // We no longer need the index, because variable 'car' already represents each indexed value
+                Console.WriteLine ($"I own a {car}");
+            }
+            Console.WriteLine (" ");
+
 
         }
     }
