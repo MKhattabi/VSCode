@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FirstCSharp {
     class Program {
@@ -117,7 +118,38 @@ namespace FirstCSharp {
                 Console.WriteLine ($"I own a {car}");
             }
             Console.WriteLine (" ");
+            //------------------------------------------------------------------------------------------------------------
 
+            // Lists
+            List<string> List1 = new List<string> ();
+            List1.Add ("Mohammed");
+            List1.Add ("Ahmed");
+            List1.Add ("Ali");
+            List1.Add ("Mikel");
+            List1.Add ("Marcelo");
+            Console.WriteLine (List1[3]);
+            Console.WriteLine ($"We currently know {List1.Count} Names.");
+            Console.WriteLine (" ");
+
+            //we can easily loop through the list of them with a C-style for loop
+            //this time, however, Count is the attribute for a number of items.
+            Console.WriteLine ("The current manufacturers we have seen are:");
+            for (var idx = 0; idx < List1.Count; idx++) {
+                Console.WriteLine ("-" + List1[idx]);
+            }
+
+            // Insert a new item between a specific index
+            List1.Insert (1, "Suzan");
+
+            //Removal from Generic List
+            List1.Remove ("Ali");
+            List1.RemoveAt (0);
+
+            //The updated list can then be iterated through using a foreach loop
+            Console.WriteLine ("List of Names:");
+            foreach (string names in List1) {
+                Console.WriteLine ("-" + names);
+            }
 
         }
     }
