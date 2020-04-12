@@ -150,6 +150,30 @@ namespace FirstCSharp {
             foreach (string names in List1) {
                 Console.WriteLine ("-" + names);
             }
+            System.Console.WriteLine (" ");
+            //--------------------------------------------------------------------------------------------------------------
+
+            // Dictionary Class 
+            Dictionary<string, string> myDict = new Dictionary<string, string> ();
+            //Almost all the methods that exists with Lists are the same with Dictionaries
+            myDict.Add ("Name", "Mohammed");
+            myDict.Add ("Language", "ASP.NET");
+            myDict.Add ("Location", "Jeddah");
+            Console.WriteLine ("About Me");
+            // Console.WriteLine ("Name - " + myDict["Name"]);
+            // Console.WriteLine ("From - " + myDict["Location"]);
+            // Console.WriteLine ("Favorite Language - " + myDict["Language"]);
+
+            //Same Output .....
+            foreach (KeyValuePair<string, string> entry in myDict) {
+                Console.WriteLine (entry.Key + " - " + entry.Value);
+            }
+            //The var keyword takes the place of a type in type-inference
+            // foreach (var entry in myDict) {
+            //     Console.WriteLine (entry.Key + " - " + entry.Value);
+            // }
+            System.Console.WriteLine(" ");
+            
 
         }
     }
