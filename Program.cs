@@ -172,10 +172,42 @@ namespace FirstCSharp {
             // foreach (var entry in myDict) {
             //     Console.WriteLine (entry.Key + " - " + entry.Value);
             // }
-            System.Console.WriteLine(" ");
-            
-            
-            
+            System.Console.WriteLine (" ");
+
+            //------------------------------------------------------------------------------------
+            // Collections Practice (Three Basic Arrays)
+            // Create an array to hold integer values 0 through 9
+            int[] PracArray;
+            PracArray = new int[10];
+            for (int i = 0; i < PracArray.Length; i++) {
+                PracArray[i] = i;
+                Console.Write (PracArray[i] + " ");
+            }
+            Console.WriteLine ("");
+            Console.WriteLine ("");
+
+            // Create an array of the names "Tim", "Martin", "Nikki", & "Sara"
+            string[] myFriends = new string[] { "Tim", "Martin", "Nikki", "Sara" };
+            for (int idx = 0; idx < myFriends.Length; idx++) {
+                Console.Write (myFriends[idx] + " ");
+            }
+            Console.WriteLine ("");
+            Console.WriteLine ("");
+
+            // Create an array of length 10 that alternates between true and false values, starting with true
+            bool[] new_array = new bool[10];
+            int Prastart = 0;
+            int Pend = new_array.Length;
+            for (int i = start; i < end; i += 2) {
+                new_array[i] = true;
+                new_array[i + 1] = false;
+            }
+            foreach (bool x in new_array) {
+                Console.Write ($"{x} ");
+            }
+            Console.WriteLine ("");
+            Console.WriteLine ("");
+
 
         }
     }
